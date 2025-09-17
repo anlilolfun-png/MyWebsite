@@ -1,7 +1,7 @@
 # MyWebsite
 <!DOCTYPE html>
 <html>
-<head>
+<head><title My Website </title>
 
 <link rel=icon href=sunflower.jpg type=image/jpg>
 <meta name=viewport content=width=device-width, initial-scale=1.0>
