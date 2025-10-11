@@ -5,10 +5,8 @@
 
 <link rel=icon href=sunflower.jpg type=image/jpg>
 <meta name=viewport content=width=device-width, initial-scale=1.0>
-
-</head>
 <body bgcolor=lavender text=#7B68EE>
-
+</head>
 <h1>>🩷💜Let me introduce myself 💜🩷<</h1>
 My name is ANLI HO HUI TING(full name)😎. You can also call me Anli. I'm a student of the Diploma in Computer Science💻, studying at Crescendo International College🏫.
 
