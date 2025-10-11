@@ -1,0 +1,22 @@
+
+body{
+background-color: khaki;
+padding:25px;
+font-size:188%;
+}
+
+h1{
+padding: 15px; 
+background: yellow; 
+width:fit-content;
+font-family: cursive;
+font-size:178%;
+}
+
+font1 {font-style: italic;font-weight: bolder}
+font2 {font-weight: bold}
+
+p.special{line-height:150%;border-style:double;border-color: tomato;
+border-collapse: collapse;background-color: snow;}
+
+
