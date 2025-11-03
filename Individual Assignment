@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport content=width=device-width, initial-scale=1.0">
+<title>Tutorial11</title>
+<link rel="stylesheet" href="style11.css">
+</head>
+<body bgcolor=lavender color=black font-family=Aptos font-size=150% text-align= justify>
+
+<center>
+
+<table border=5 bordercolor=lightsteelblue cellpadding=28px cellspacing=10px
+bgcolor=aliceblue>
+<tr bgcolor=lightblue>
+<th><p>Type</th></p>
+<th><p>Breakpoint(px)</p></th>
+<th><p>CSS Media Query Example</p></th>
+</tr>
+
+<tr>
+<td><OL type=number start=1>
+<LI><p>Mobile Devices</LI></p></OL>
+<td>360px</td>
+<td bgcolor=white><font1><p>@media only</font1> screen<font1> and </font1> (<font2>max-width</font2>: <font3>360px</font3>) {</p>
+<font1><p>    body</font1> {
+<font2>        background-color</font2>: white;
+<font2>        font-size</font2>: <font3>12px</font3>;
+  }</p>
+<p> nav ul {
+<font2>    flex-direction</font2>: <font3>column</font3>; 
+<font2>    align-items</font2>: <font3>center</font3>;
+  }
+}</p>
+
+    
+</td>
+</tr>
+
+<tr>
+<td font-size=1px>
+<OL type=number start=2>
+<LI>Tablets</LI></td>
+<td>768px</td>
+<td bgcolor=white><font1><p>@media only</font1> screen<font1> and </font1> (<font2>max-width</font2>: <font3>768px</font3>) { 
+<font1>   body</font1> {
+<font2>        background-color</font2>: white;
+<font2>        font-size</font2>: <font3>13px</font3>;
+  }</p>
+
+<p>  nav ul {
+<font2>    flex-direction</font2>: <font3>row</font3>; 
+  }
+}</p>
+
+ </td>
+</tr>
+
+<tr><td><OL type=number start=3>
+<LI>Desktops</LI></td>
+<td>≥ 769px <font5><small>(1024px)</font5></small></td>
+<td bgcolor=white><font1>@media only</font1> screen<font1> and </font1> 
+(<font2>min-width</font2>: <font3>769px</font3>) {
+<font1><p>  body</font1> {
+<font2>    font-size</font2>: <font3>16px</font3>;
+<font2>     max-width</font2> : <font3> 1024px</font3>;
+<font2>    margin</font2>: <font3>auto</font3>;
+  }</p>
+
+ </td>
+</tr>
+
+</table>
+
+</body>
+</html>
