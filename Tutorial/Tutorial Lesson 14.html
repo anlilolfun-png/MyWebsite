@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles14.css">
+<title>Room Reservations Form</title>
+</head>
+<body>
+<center>
+<h2>Room Reservations</h2>
+</center>
+
+<left>
+<div>
+<table>
+<form><tr><th colspan=2 align=left>
+<b><p><font1><u>Personal Details</u></font1><font2> *</font2></b></p>
+</th></tr>
+
+<tr>
+<td colspan=2>
+<label for="fullName"><p>Full Name :</label>
+<input type="text" id="fullName" name="fullName" required>
+</td>
+<td>
+<label for="email">Email Address :</label>
+<input type="email" id="email" name="email" required></p>
+</td>
+</tr>
+
+<tr><td colspan=2>
+<label for="icNumber"><p>IC Number :</label>
+<input type="text" id="icNumber" name="icNumber" required>
+</td><td>
+<label for="contactNo">Contact No. :</label>
+<input type="tel" id="contactNo" name="contactNo"></p>
+</td>
+</tr>
+
+</div>
+</table>
+
+<br><br>
+
+<div><br><br>
+<table><tr><td colspan=3>
+<b><p><font1><u>Reservations</font1></u><font2> *</font2></b></p></td></tr>
+<td colspan=2>
+<label for="numberOfRooms"><p>Number of Room(s) :</label>
+<select id="numberOfRooms" name="numberOfRooms" required>
+            <option value="">- Selection -</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+</td><td><b><p>Payment Method </td></b><td>
+<p><input type=radio value=Cash>Cash</input>
+<input type=radio value=TNG>TNG</input></p>
+</td>
+</tr>
+
+<tr><td colspan=3><p>
+        <label for="numberOfAdults">Number of Adult(s) :</label>
+        <select id="numberOfAdults" name="numberOfAdults" required>
+            <option value="">- Selection -</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select></p></td>
+<td rowspan=5>
+<b><p>Do you have any</p><p>Special Requests?</p>
+<textarea id="specialRequests" name="specialRequests" rows="4"></textarea>
+</td></tr>
+
+<tr><td>
+        <label for="numberOfChildren">Number of Children :</label>
+        <select id="numberOfChildren" name="numberOfChildren" required>
+            <option value="">- Selection -</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select></td></tr>
+
+<tr><td>        <label for="checkInDate">Check-In Date :</label>
+        <input type="date" id="checkInDate" name="checkInDate" required>
+</td></tr>
+
+<tr><td><label for="checkOutDate">Check-Out Date :</label>
+        <input type="date" id="checkOutDate" name="checkOutDate" required>
+</td></tr>
+<tr><td><p><label for="roomPreference">Room Preference :</label>
+<input type=checkbox name="Deluxe">Deluxe</input>
+<input type=checkbox name="Sulte">Sulte</p></input>
+</td></tr>      
+</div></table>
+
+
+
+</left>
+<br><br>
+<center>
+
+
+<tr>
+<td><p><input type=submit value=Submit>
+<input type=reset value=Reset></td></p>
+</tr>
+</form>
+</table>
+</center>
+
+
+</body>
+</html>
