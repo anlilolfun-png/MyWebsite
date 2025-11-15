@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html><head><title>Form - Text Input</title>
+<link rel=icon href=sunflower.jpg type=image/jpg>
+<meta name=viewport content=width=device-width, initial-scale=1.0>
+<link rel="stylesheet" href="style15.css">
+</head>
+<body>
+<center>
+
+<br>
+<p>Personal details:</p><br>
+<form>  
+<table><tr>
+<td width='40%'><p2>First Name: </td></p2>
+<td><input type=text name=fname></td>
+</tr><tr>
+<td><p2>Last Name: </td></p2>
+<td><input type=text name=lname> </td>
+</tr><tr>
+<td><p2>Gender: </td></p2>
+<td>
+<input type = radio name = gender value = Male> Male
+<input type = radio name = gender value = Female> Female
+</td>
+</tr><tr>
+<td><p2>Choose your favorite subjects:</td></p2>
+<td>
+<input type=checkbox name=fav_sub value=DCS4103>DCS4103
+<input type=checkbox name=fav_sub value=DCS3003>DCS3003
+<input type=checkbox name=fav_sub value=MST1003>MST1003
+<input type=checkbox name=fav_sub value=MST2003>MST2003
+</td>
+</tr><tr>
+<td><p2>Address:</td></p2>
+<td><textarea rows=4 cols=30 name=address></textarea></td>
+</tr><tr>
+<td><p2>Date of birth:</td></p2>
+<td><input type=date name=dob></td>
+</tr><tr>
+<td><p2>Login password:</td></p2>
+<td><input type=password name=loginpass></td>
+</tr><tr>
+<td><p2>Course:</td></p2>
+<td>
+<select>
+<option value="0">- List of Courses -</option>
+
+<optgroup label="Diploma In Computer Science">
+<option value="DCS_S1">Semester 1</option>
+<option value="DCS_S2">Semester 2</option>
+<option value="DCS_S3">Semester 3</option>
+<option value="DCS_S4">Semester 4</option>
+<option value="DCS_S5">Semester 5</option>
+<option value="DCS_S6">Semester 6</option>
+</optgroup>
+
+<option value="DIB">Diploma In Bussiness</option>
+<option value="DAS">Diploma In Airline Services</option>
+</select>
+</td></tr>
+</table><br>
+<input type=submit value=Submit>
+<input type=reset value=Reset>
+
+<br><br>
+</p></form></center></body></html>
+
+

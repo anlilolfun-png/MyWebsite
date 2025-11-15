@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: snow;
+
+}
+
+form {
+    background-color: #99CCFF;
+    padding: 20px;
+    border-radius: 8px;
+    border:2px;
+
+}
+
+p {
+backgroundcolor: white;
+    text-align: center;
+    font-size:26px;
+}
+
+p2 {
+background-color:#0066FF;
+border-width: 65px;
+
+}
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+label {
+    display: block;
+}
+
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px;
+    border: 1px solid #b3cde0;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
