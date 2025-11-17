@@ -1,0 +1,486 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+selector {
+background: lightblue url("bg.jpeg") no-repeat fixed center;     
+background-size: 100% 100%;
+
+
+}
+
+h5 {text-shadow: horizontal offset, vertical offset, blur radius, color;
+            text-shadow: 2px 3px 4px khaki;
+        }
+
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
+    color: #000; /* Text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    width: 88%;
+    text-align: center;
+}
+
+.transparent-text {
+    color: rgba(0, 0, 0, 0.5); /* Black text with 50% opacity */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+header, footer {
+background:snow;
+background-image: url("C:\DCS 3003 (Website Design)\(DCS2509227_ANLI HO HUI TING)Project\bg.jpeg");
+  color: Navy;
+  text-align: center;
+  padding: 25px;
+}
+
+nav {
+  background: snow
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 8px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 8px 12px;
+  background: SlateBlue;
+  color: lightblue;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+nav ul li a:hover{
+  background: #FF007F;
+
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.content-frame {
+  width: 100%;
+  height: 480px;   
+  border: none;
+  text-align: left;
+}
+
+
+font1 {color: #CC0000 }
+font2 {color: DarkGoldenRod}
+font3 {font face: Times New Roman; size:15px}
+font5 {color: dimgrey}
+font6 {color:#99004C}
+font7 {background: snow ; color:#FF3399;font-family:Arial}
+font8 {background: snow ; color:#FFB266;font-family:Arial}
+font9 {background: snow ; color:seagreen;font-family:Arial}
+font10 {background: snow ; color:brown ;font-family:Arial}
+font11 {background: snow ; color:blue ;font-family:Arial}
+
+    .card {
+      width: 220px;
+      height: 120px;
+      background: white;
+      box-shadow: 5px 5px 15px 5px #888888;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .input-box {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      box-shadow: inset 2px 2px 6px rgba(0,0,0,0.3);
+    }
+
+.heading {
+      font-size: 40px;
+      color: #333;
+      text-shadow: 2px 2px 4px #888888;
+      margin-bottom: 20px;
+    }
+
+.glow {
+      font-size: 40px;
+      color: white;
+      background: black;
+      display: inline-block;
+      padding: 10px;
+      text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+    }
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #000080;
+  width: 25%;
+}
+
+div.gallery-item:hover {
+  border: 3px solid #FF007F;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+      color: var(--main-color);
+      background: white;
+      padding: 15px(--padding);
+      border-radius: var(--radius);
+
+    }
+
+.Icon {
+font-weight: bold;
+font-size: 22px;
+color: navy;
+margin-right: auto; /* pushes other links to the right */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.address, .phone {
+    flex: 1;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 24px;  /* Adjust icons to fit */
+    height: 24px;
+}
+
+.support-button {
+    text-align: center;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup-overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stays in place even when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Undergraduate Programs Section */
+        .undergraduate-section {
+            margin-bottom: 50px;
+        }
+        
+        .program-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .program-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border: 2px solid #9370DB;
+            transition: transform 0.3s ease;
+        }
+        
+        .program-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .program-card h3 {
+            color: #00008B;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        .program-card ul {
+            list-style-type: disc;
+            padding-left: 0;
+        }
+        
+        .program-card li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+
+
+/* =========================
+   Mobile (≤ 360px)
+   ========================= */
+@media (max-width: 360px) {
+  body {
+    font-size: 12px;
+  }
+
+  nav ul {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* =========================
+   Tablet (361px – 768px)
+   ========================= */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav ul {
+    flex-direction: row; 
+  }
+}
+
+.btn {
+    background-color: white;
+    color: #003C71;  /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;  /* Button border */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #003C71;  /* Button hover color */
+    color: white;  /* Button hover text color */
+}
+
+.programs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+}
+
+.program-card {
+    background-color: #6c757d; /* Default color for cards */
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.program-card h2 {
+    margin: 0;
+}
+
+.program-card p {
+    font-size: 0.9em;
+}
+
+.program-card.ai {
+    background-color: #c0392b; /* Red */
+}
+
+.program-card.business-ai {
+    background-color: #8e44ad; /* Purple */
+}
+
+.program-card.analytics {
+    background-color: #f39c12; /* Orange */
+}
+
+.program-card.engineering {
+    background-color: #2980b9; /* Blue */
+}
+
+.program-card.computing-science {
+    background-color: #27ae60; /* Green */
+}
+
+.program-card:hover {
+    opacity: 0.9;
+}
+
+div2 {
+    background-image: url( );
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* =========================
+   Mobile (≤ 360px)
+   ========================= */
+@media (max-width: 360px) {
+  body {
+    font-size: 12px;
+  }
+
+  nav ul {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+font11 {color: grey}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+background-color: snow;
+}
+
+
+th, td {
+    padding: 12px;
+    border: 1px solid navy;
+    text-align: center;
+}
+
+th {
+    background-color: khaki;
+}
+
+
+/* =========================
+   Tablet (361px – 768px)
+   ========================= */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav ul {
+    flex-direction: row; 
+  }
+}
+
+/* =========================
+   Mobile (≤ 360px)
+   ========================= */
+@media (max-width: 360px) {
+  body {
+    font-size: 12px;
+  }
+
+  nav ul {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+/* =========================
+   Desktop (≥ 769px)
+   ========================= */
+@media (min-width: 769px) {
+  body {
+    font-size: 16px;
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  .content {
+    text-align: left;
+  }
+}

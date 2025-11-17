@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport content=width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="style11.css">
+</head>
+
+
+
+<center>
+<p style="background: khaki ;color: black;font-family:Times New Roman; font-size:35px; text-align: Center;"><font1>Contact Us</font1>
+<hr size=3 color=dimgrey width=65% noshade>
+<h1>Contact Information</h1>
+
+<div class="transparent-box">
+<section id="contact">
+<table border=0 width=80%>
+<tr>
+<td>
+<form id="contactForm">
+<label for="name" input type="text" name="name" required>Name:</label>
+<input type="text" class="input-box" required placeholder='Full Name' size=35 maxlength=3>
+</td>
+</tr>
+
+<tr>
+<td><label for="email" input type="email" name="email" required>Email:</label>
+<input type="text" class="input-box" required placeholder='Example@gmail.com' size=35 maxlength=3>
+</td>
+</tr>
+
+<tr><td>
+<label for="message">Message:</label>
+<textarea id="message" required></textarea>
+<br>
+
+
+<button type="submit" onclick="openPopup()">Submit</button>
+
+<div id="myPopup" class="popup-overlay">
+  <div class="popup-content">
+    <h2>Thank You</h2>
+    <p>Your details have been successfully submitted. Thanks!</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<input type=reset value=Reset></td></p>
+</tr>
+
+</form>
+<div id="formResponse"></div> 
+</section>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("openModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+
+
+
+</body>
+</html>
