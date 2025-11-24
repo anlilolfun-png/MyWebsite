@@ -1,0 +1,27 @@
+body {
+bgcolor:lavender;
+color:black;
+font-family:Arial;
+font-size:2px :
+text-align: center;
+}
+
+h1 {
+  border-style: groove;
+  border-width: 7px;
+  border-color: #EEE8AA;
+}
+
+h2 {
+}
+
+div {
+  border-style: groove;
+  border-width: 10%;
+  border-color: #EEE8AA;  
+}
+
+div.relative{
+  position: relative;
+  left: 30px;}
+
